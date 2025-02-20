@@ -23,22 +23,23 @@
     --disabled: #efefef;
 }
 
-/* Dark theme --text: #dcdcdc; */
-
+/* Dark theme --text: #dcdcdc; 
+es
 @media (prefers-color-scheme: dark) {
-    :root {
-        color-scheme: dark;
-        --bg: #212121;
-        --accent-bg: #2b2b2b;
-        --text: white;
-        --text-light: #ababab;
-        --border: rgb(209, 142, 18);
-        --accent: #ffb300;
-        --code: #f06292;
-        --preformatted: #ccc;
-        --disabled: #111;
-    }
+*/
+:root.dark {
+    color-scheme: dark;
+    --bg: #212121;
+    --accent-bg: #2b2b2b;
+    --text: white;
+    --text-light: #ababab;
+    --border: rgb(209, 142, 18);
+    --accent: #ffb300;
+    --code: #f06292;
+    --preformatted: #ccc;
+    --disabled: #111;
 }
+
 
 /* Add a bit of transparency so light media isn't so glaring in dark mode */
 img,
