@@ -1,0 +1,26 @@
+header>nav {
+    padding: 0;
+}
+
+header>nav a {
+    margin: 0;
+}
+
+main,
+footer {
+    padding: 0 0.5rem;
+}
+
+.display-none {
+    display: none;
+}
+
+#div-input-word {
+    display: grid;
+    grid-template-columns: 3rem auto;
+    gap: 1rem;
+}
+
+.text-align-center {
+    text-align: center;
+}
